@@ -26,5 +26,5 @@ module.exports = {
     'jest-watch-typeahead/testname',
   ],
   collectCoverage: true,
-  coverageReporters: ['lcov', 'text-summary']
+  coverageReporters: ['text-summary']
 }
