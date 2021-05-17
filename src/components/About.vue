@@ -70,7 +70,7 @@
   width: 1000px;
   border: 1px solid #E0E0E0;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 40px;
 
   p {
     font-size: 18px;

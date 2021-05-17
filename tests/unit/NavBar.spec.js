@@ -23,9 +23,18 @@ describe('NavBar.vue', () => {
         expect(wrapper.vm).toBeTruthy()
     })
 
-    test('render RouterLink to about page',() => {
+    test('renders RouterLink to about page', () => {
         const wrapper = shallowMount(NavBar, {localVue, router})
         let routerLink = wrapper.find('#about')
         expect(routerLink.attributes().to).toBe('/about')
+    })
+
+    test('renders RouterLink to home page', () => {
+        const $route = {
+            name: 'about'
+        }
+        const wrapper = shallowMount(NavBar, {stubs: ['router-link'], router, mocks: {$route}})
+        let routerLink = wrapper.find('#home')
+        expect(routerLink.attributes().to).toBe('/')
     })
 })
