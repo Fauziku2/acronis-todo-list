@@ -1,3 +1,19 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "157ff431-4988-45f4-81a8-0bac3f3e2af7",
+      "name": "test",
+      "status": "not completed"
+    },
+    {
+      "id": "de2136a2-cb9e-45aa-8c46-895f9f9fefb0",
+      "name": "task 1",
+      "status": "completed"
+    },
+    {
+      "id": "69857468-8021-4a7f-a1bc-f73cd79913b6",
+      "name": "task 2",
+      "status": "completed"
+    }
+  ]
 }

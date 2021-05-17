@@ -1,7 +1,7 @@
 <template>
   <div class="task-container">
     <el-checkbox v-model="taskStatus"></el-checkbox>
-    <div class="task-name" @click="test">
+    <div class="task-name">
       {{task.name}}
     </div>
     <div class="task-delete hide">
@@ -32,15 +32,11 @@ export default {
   },
   methods: {
     ...mapActions('todos', ['updateTaskStatus', 'deleteTask']),
-    test () {
-      console.log('task', this.task)
-    },
     onDelete () {
       this.deleteTask(this.task.id)
     }
   }
 }
-
 </script>
 
 <style lang="scss">

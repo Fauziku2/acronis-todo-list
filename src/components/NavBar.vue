@@ -1,7 +1,11 @@
 <template>
   <ul>
-    <li v-if="$route.name === 'about'"><router-link to="/">Home</router-link></li>
-    <li v-if="$route.name === 'home'"><router-link to="/about">About</router-link></li>
+    <li v-if="$route.name === 'about'">
+      <router-link id="home" to="/">Home</router-link>
+    </li>
+    <li v-if="$route.name === 'home'">
+      <router-link id="about" to="/about">About</router-link>
+    </li>
   </ul>
 </template>
 
