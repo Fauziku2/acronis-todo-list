@@ -4,7 +4,7 @@
 - Install Vue CLI `npm install -g @vue/cli`
 - Run `npm install` to download all dependencies
 - Install JSON Server `npm install -g json-server`
-- Start JSON Server `json-server --watch db.json --port 3000`
+- Run `json-server --watch db.json --port 3000` to start JSON Server
 - Run `npm run serve` for a dev server
 - Navigate to `http://localhost:8080/`
 - The app will automatically reload if you change any of the source files
