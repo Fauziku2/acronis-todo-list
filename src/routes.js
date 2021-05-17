@@ -1,5 +1,5 @@
 import TodoList from './components/TodoList'
-import About from './components/About'
+const About = () => import('./components/About')
 
 export const routes = [
     {
