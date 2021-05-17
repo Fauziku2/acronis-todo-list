@@ -9,7 +9,7 @@
   </ul>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 ul {
   display: flex;
   align-items: center;
