@@ -1,14 +1,16 @@
 # acronic-todo-list
 
 ## Project setup
-```
-npm install
-```
+- Install Vue CLI `npm install -g @vue/cli`
+- Run `npm install` to download all dependencies
+- Install JSON Server `npm install -g json-server`
+- Start JSON Server `json-server --watch db.json --port 3000`
+- Run `npm run serve` for a dev server
+- Navigate to `http://localhost:8080/`
+- The app will automatically reload if you change any of the source files
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Library use for back-end prototyping and mocking of REST API
+[JSON Server](https://github.com/typicode/json-server)
 
 ### Compiles and minifies for production
 ```
