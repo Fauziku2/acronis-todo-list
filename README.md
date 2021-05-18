@@ -1,4 +1,4 @@
-# acronic-todo-list
+# acronis-todo-list
 
 ## Project setup
 - Install Vue CLI `npm install -g @vue/cli`
