@@ -9,6 +9,11 @@
 - Navigate to `http://localhost:8080/`
 - The app will automatically reload if you change any of the source files
 
+### Run Unit Testing
+```
+npm run test:unit
+```
+
 ### Library use for back-end prototyping and mocking of REST API
 [JSON Server](https://github.com/typicode/json-server)
 
